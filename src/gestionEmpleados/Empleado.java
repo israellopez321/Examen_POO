@@ -1,7 +1,7 @@
 package gestionEmpleados;
 
 /**
- * Empleados participantes en la gestion de empleados
+ * Empleados participantes en la gestion de empleados añadidos a la lista de empleados
  */
 public class Empleado {
 
@@ -35,7 +35,7 @@ public class Empleado {
 	}
 	
 	public void setPorcBonificacion(double porcBonificacion) {
-		if(porcBonificacion >= 0 || porcBonificacion <= 30) {
+		if(porcBonificacion >= 0 || porcBonificacion <=30) {
 			this.porcBonificacion = porcBonificacion;
 		}
 	}
@@ -98,6 +98,8 @@ public class Empleado {
 		
 		return esMayor;
 	}
+
+	
 	
 	
 }
